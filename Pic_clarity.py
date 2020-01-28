@@ -1,3 +1,7 @@
+'''
+Check whether the picture is clear enough
+via image Variance
+'''
 #coding:utf-8
 import cv2
 
@@ -7,3 +11,4 @@ def getImageVar(imgPath):
     imageVar = cv2.Laplacian(img2gray, cv2.CV_64F).var()
     return imageVar
 
+# getImageVar("picture/1.jpg")
