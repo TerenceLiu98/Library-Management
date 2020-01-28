@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04619b0e-6d67-4bab-9685-74811ae5d1fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Code_identify.py" beforeDir="false" afterPath="$PROJECT_DIR$/Code_identify.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ISBN_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/ISBN_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pic_clarity.py" beforeDir="false" afterPath="$PROJECT_DIR$/Pic_clarity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/picture/barcode.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/picture/3.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +88,7 @@
       <updated>1580109323831</updated>
       <workItem from="1580109330447" duration="16523000" />
       <workItem from="1580220422433" duration="32000" />
-      <workItem from="1580220475202" duration="99000" />
+      <workItem from="1580220475202" duration="409000" />
     </task>
     <servers />
   </component>
