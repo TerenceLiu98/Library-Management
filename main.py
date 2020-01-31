@@ -5,24 +5,20 @@ import urllib.request
 import json
 import os
 import pyzbar.pyzbar as pyzbar
-from PIL import Image,ImageEnhance
-from ISBN_check import getInfoFromDouban
-
-#import getImageVar from Pic_clarity # function: getImageVar
-from Code_identify import getcode # function: getcode
+from PIL import Image, ImageEnhance
+from Code_identify import getcode  # function: getcode
+from ISBN_check import GetBookInfo, JsonToCSV
+from combine import combineCSV
+# import getImageVar from Pic_clarity # function: getImageVar
 
 # get all the barcode's INFO from picture and
 getcode()
+print("transform isbn code, done!")
 
-# get books' INFO via ISBN comparison
-f = open("code.txt")
-data = []
-with open('code.txt', 'r') as f:
-    for line in f.readlines():
-        line = line.strip('\n')
-        data.append(line)
-
-for i in range(len(data)):
-    getInfoFromDouban(data[i])
-
-
+GetBookInfo()
+print("get books' info, done!")
+# Convert JSON to CSV; easy for me to put data in database
+JsonToCSV()
+print("json to csv, done!")
+combineCSV()
+print("conbine csv files, Done!")

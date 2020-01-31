@@ -23,3 +23,5 @@ def getcode():
             f = open('code.txt', 'a')
             f.write(str(tt)+"\n")
             f.close()
+
+# getcode()
